@@ -25,11 +25,11 @@ const fs = require("fs")
 const chalk = require("chalk")
 
 //aumto functioner
-global.autoTyping = false //auto tying in gc (true to on, false to off)
-global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
+global.autoTyping = true //auto tying in gc (true to on, false to off)
+global.autoreadpmngc = true //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = true //auto reading in gc (true to on, false to off)
-global.autoReadAll = false // auto reading in all pchat gc and status (true to on, false to off)
-global.autoRecord = false //auto recording (true to on, false to off)
+global.autoReadAll = true // auto reading in all pchat gc and status (true to on, false to off)
+global.autoRecord = true //auto recording (true to on, false to off)
 global.available = true //auto available (true to on, false to off)
 
 //documents variants
@@ -41,26 +41,26 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['917561823024'] //ur owner number
-global.ownername = "𝑂͢𝐺𝐺𝑌⇄𝑆𝛴𝛤"
-global.ytname = "YT: 𝑺𝒉𝒊𝒛𝒖𝒌𝒂ᑉᶟ" //ur yt chanel name
-global.socialm = "GitHub: HELLBOY7561" //ur github or insta name
-global.location = "India, Kerala, Idukki" //ur location
+global.owner = ['687728888'] //ur owner number
+global.ownername = "ꪶ«͒͢ᴛͥᴇͭxᷤᴀ͓͛xͫᴢͤ⿕s͎͍ᴇᷳʀᷬ»͓͛ꫂ"
+global.ytname = "YT: 𝜯𝜠𝜲𝜟𝜲𝜡 𝜝𝜭𝜯" //ur yt chanel name
+global.socialm = "GitHub: TEXAXZ-S3R" //ur github or insta name
+global.location = "India, Kerala, kottayam" //ur location
 
 //bot bombdy
-global.botname = "𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 𝑴𝑫" //ur bot name
-global.websitex = "https://youtube.com/channel/UCWOF5p3b7rRlEgN-f3S3V0w" //ur website
+global.botname = "🤖ꪶ𝛃𝛟𝛕⚚𑜋𝛂𝛊𝟋𝛖ꫂ👻 𝜧𝑫" //ur bot name
+global.websitex = "https://youtube.com/channel/UtUbE-IlLa-MyR-0010" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
-global.packname = "𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 𝑴𝑫"
-global.author = "𝑂͢𝐺𝐺𝑌⇄𝑆𝛴𝛤"
+global.packname = "㖻𝛃◉𝚻❰𑜏αι𝟋𝛖❱⋆⛨─ᷟ─ͣ─ᷤ─ᷤ⁩❥𝄤"
+global.author = "玄ꪎ𝟕 ⛒ 𝚻𝜺✘𝛂✘𝚭 »͓̽"
 global.themeemoji = "❏"
 global.reactmoji = "🌝"
-global.ownertag = ['917561823024'] //ur owner tag
-global.ownernummenu = ['917561823024'] //ur owner number in menu and all
-global.watermark = "𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 𝑴𝑫" //ur watermark
-global.botscript = "https://github.com/HELLBOY7561/HELL-BOY-MD-V3"
-global.linkz1 = "https://chat.whatsapp.com/CoyDq2bXKMzEhS27ttAX7U"
-global.linkz2 = "https://chat.whatsapp.com/CoyDq2bXKMzEhS27ttAX7U"
+global.ownertag = ['687728888'] //ur owner tag
+global.ownernummenu = ['687728888'] //ur owner number in menu and all
+global.watermark = "🤖ꪶ𝛃𝛟𝛕⚚𑜋𝛂𝛊𝟋𝛖ꫂ👻 𝜧𝑫" //ur watermark
+global.botscript = "https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3"
+global.linkz1 = "https://chat.whatsapp.com/KTcdEQw3SDk3s5A7dvJlDS"
+global.linkz2 = "https://chat.whatsapp.com/KTcdEQw3SDk3s5A7dvJlDS"
 
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
