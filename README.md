@@ -1,6 +1,6 @@
 
 
-<h1 align="center">❏𝑯𝑬𝑳𝑳 𝑩𝑶𝒀 𝑴𝑫 𝑽𝟑❐<br></h1>
+<h1 align="center">❏𝜯𝜠𝜲𝜟𝜲𝜡 𝜝𝜭𝜯 𝜧𝑫❐<br></h1>
 <p align="center">
 
 ![Banner](91d655a8417b6ec0e62c160794fc33aa.jpg) <br />
@@ -35,8 +35,8 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 
 ## ```Connect With Me```
 <p align="center">
-<a href="https://wa.me/917561823024"><img src="https://img.shields.io/badge/Contact Hell Boy-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-<a href="https://chat.whatsapp.com/CoyDq2bXKMzEhS27ttAX7U"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/687728888"><img src="https://img.shields.io/badge/Contact TEXAZX SER-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/KTcdEQw3SDk3s5A7dvJlDS"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
 ## ```Donate Me```
