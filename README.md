@@ -21,12 +21,12 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 
 # ```Bot Info```
 <p align="center">
-<a href="https://github.com/HELLBOY7561/followers"><img title="Followers" src="https://img.shields.io/github/followers/HELLBOY7561?color=red&style=flat-square"></a>
-<a href="https://github.com/HELLBOY7561/HELL-BOY-MD-V3/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/HELLBOY7561/HELL-BOY-MD-V3?color=blue&style=flat-square"></a>
-<a href="https://github.com/HELLBOY7561/HELL-BOY-MD-V3/network/members"><img title="Forks" src="https://img.shields.io/github/forks/HELLBOY7561/HELL-BOY-MD-V3?color=red&style=flat-square"></a>
-<a href="https://github.com/HELLBOY7561/HELL-BOY-MD-V3/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/HELLBOY7561/HELL-BOY-MD-V3?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHELLBOY7561%2FHELL-BOY-MD-V3&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/HELLBOY7561/HELL-BOY-MD-V3/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/TEXAXZ-S3R/followers"><img title="Followers" src="https://img.shields.io/github/followers/TEXAXZ-S3R?color=red&style=flat-square"></a>
+<a href="https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TEXAXZ-S3R/HELL-BOY-MD-V3?color=blue&style=flat-square"></a>
+<a href="https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TEXAXZ-S3R/HELL-BOY-MD-V3?color=red&style=flat-square"></a>
+<a href="https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TEXAXZ-S3R/HELL-BOY-MD-V3?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTEXAXZ-S3R%2FHELL-BOY-MD-V3&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
 <p align='center'>
     </p>
@@ -41,7 +41,7 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 
 ## ```Donate Me```
 
-- [`FamPay`](https://telegra.ph/file/8737b098fd5702daeb7e0.jpg)
+- [`FamPay`](https://telegra.ph/file/8737b098fd5702daJGH7e0.jpg)
 
 <p align="left">
 Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.
@@ -49,22 +49,22 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 
 ## ```Bot Support Groups```
 
-- [`1st GROUP`](https://chat.whatsapp.com/CoyDq2bXKMzEhS27ttAX7U)
+- [`1st GROUP`](https://chat.whatsapp.com/KTcdEQw3SDk3s5A7dvJlDS)
 
 # Setup For Deployment 👇
 
-- FORK THE REPOSITORY [Here](https://github.com/HELLBOY7561/HELL-BOY-MD-V3/fork)
+- FORK THE REPOSITORY [Here](https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/fork)
 
 ## `Scan QR Code For Session`
 [![Cheems Bot](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@DGXeon/Cheems-Bot-Multi-Device-Qr-Code-Generator?output%20only=1&lite=1#index.js)
 
 ## `SETTINGS`
 
-- CHANGE OWNER NUMBER VCARD [Here](https://github.com/HELLBOY7561/HELL-BOY-MD-V3/blob/master/config.js#L44)
-- CHANGE OWNER NUMBER MENU [Here](https://github.com/HELLBOY7561/HELL-BOY-MD-V3/blob/master/config.js#L59)
-- CHANGE OWNER NUMBER TAG [Here](https://github.com/HELLBOY7561/HELL-BOY-MD-V3/blob/master/config.js#L58)
-- CHANGE OWNER NAME [Here](https://github.com/HELLBOY7561/HELL-BOY-MD-V3/blob/master/config.js#L45)
-- CHANGE BOT NAME [Here](https://github.com/HELLBOY7561/HELL-BOY-MD-V3/blob/master/config.js#L51)
+- CHANGE OWNER NUMBER VCARD [Here](https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/blob/master/config.js#L44)
+- CHANGE OWNER NUMBER MENU [Here](https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/blob/master/config.js#L59)
+- CHANGE OWNER NUMBER TAG [Here](https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/blob/master/config.js#L58)
+- CHANGE OWNER NAME [Here](https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/blob/master/config.js#L45)
+- CHANGE BOT NAME [Here](https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/blob/master/config.js#L51)
 
 ## ` BUILDPACKS`
 
