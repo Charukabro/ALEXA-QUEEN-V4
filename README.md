@@ -7,9 +7,6 @@
   <img border-radius: 15px src="https://te.legra.ph/file/aaeedc5cc365be576c9d3.jpg/Alexaqueen.png" width="400" height="400"/>
   <p align="center">
 
-<p align="center">
-<a href="https://youtu.be/xn9RatOrbuI"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
-</p>
 
 # Thanks to
 
