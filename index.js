@@ -1,7 +1,7 @@
 //════════════════════════════//
 //Hello Friends Its Me Cyberxkid
 //Thanks For All For The Support
-//If you Take This Code Give Credits @Cyberxkid,@ALEXA
+//If you Take This Code Give Credits @ALEXA-QUEEN,@CYBERXKID
 //════════════════════════════//
 //Given The Creadits To CYBERXKID For The Script
 //✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅⚟
