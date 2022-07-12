@@ -60,50 +60,50 @@ console.log(color('  𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫 2022','medium
 store.bind(AlexaQueenInc.ev)
 
     // anticall auto block
-    XeonBotInc.ws.on('CB:call', async (json) => {
+    AlexaQueenInc.ws.on('CB:call', async (json) => {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
-    let pa7rick = await XeonBotInc.sendContact(callerId, global.owner)
-    XeonBotInc.sendMessage(callerId, { text: `𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄 𝑩𝒍𝒐𝒄𝒌 𝑺𝒚𝒔𝒕𝒆𝒎!\n𝑫𝒐𝒏'𝒕 𝑪𝒂𝒍𝒍 𝑩𝒐𝒕!\n𝑷𝒍𝒆𝒂𝒔𝒆 𝑨𝒔𝒌 𝑶𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝑻𝒉𝒆 𝑶𝒘𝒏𝒆𝒓 𝑻𝒐 𝑼𝒏𝒃𝒍𝒐𝒄𝒌 𝒀𝒐𝒖!`}, { quoted : pa7rick })
+    let pa7rick = await AlexaQueenInc.sendContact(callerId, global.owner)
+    AlexaQueenInc.sendMessage(callerId, { text: `𝑨𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒄 𝑩𝒍𝒐𝒄𝒌 𝑺𝒚𝒔𝒕𝒆𝒎!\n𝑫𝒐𝒏'𝒕 𝑪𝒂𝒍𝒍 𝑩𝒐𝒕!\n𝑷𝒍𝒆𝒂𝒔𝒆 𝑨𝒔𝒌 𝑶𝒓 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝑻𝒉𝒆 𝑶𝒘𝒏𝒆𝒓 𝑻𝒐 𝑼𝒏𝒃𝒍𝒐𝒄𝒌 𝒀𝒐𝒖!`}, { quoted : pa7rick })
     await sleep(8000)
-    await XeonBotInc.updateBlockStatus(callerId, "block")
+    await AlexaQueenInc.updateBlockStatus(callerId, "block")
     }
     })
 
-XeonBotInc.ev.on('messages.upsert', async chatUpdate => {
+AlexaQueenInc.ev.on('messages.upsert', async chatUpdate => {
 try {
 mek = chatUpdate.messages[0]
 if (!mek.message) return
 mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
 if (mek.key && mek.key.remoteJid === 'status@broadcast') return
-if (!XeonBotInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
+if (!AlexaQueenInc.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
 if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
-m = smsg(XeonBotInc, mek, store)
-require("./XeonCheems3")(XeonBotInc, m, chatUpdate, store)
+m = smsg(AlexaQueenInc, mek, store)
+require("./CYBERXKIDALEXA4")(AlexaQueenInc, m, chatUpdate, store)
 } catch (err) {
 console.log(err)
 }
 })
 //GRUP UPDATE
-XeonBotInc.ev.on('groups.update', async pea => {
+AlexaQueenInc.ev.on('groups.update', async pea => {
        //console.log(pea)
     // Get Profile Picture Group
        try {
-       ppgc = await XeonBotInc.profilePictureUrl(pea[0].id, 'image')
+       ppgc = await AlexaQueenInc.profilePictureUrl(pea[0].id, 'image')
        } catch {
-       ppgc = 'https://telegra.ph/file/f0697709fbdb19386e256.jpg'
+       ppgc = 'https://te.legra.ph/file/cc38aa17d43d50974e178.jpg'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
-       XeonBotInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑻𝒉𝒆 𝒈𝒓𝒐𝒖𝒑 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒄𝒍𝒐𝒔𝒆𝒅 𝒃𝒚 𝒂𝒅𝒎𝒊𝒏, 𝑵𝒐𝒘 𝒐𝒏𝒍𝒚 𝒂𝒅𝒎𝒊𝒏 𝒄𝒂𝒏 𝒔𝒆𝒏𝒅 𝒎𝒆𝒔𝒔𝒂𝒈𝒆𝒔 !`, `${botname}`, wm_fatih, [])
+       AlexaQueenInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑻𝒉𝒆 𝒈𝒓𝒐𝒖𝒑 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒄𝒍𝒐𝒔𝒆𝒅 𝒃𝒚 𝒂𝒅𝒎𝒊𝒏, 𝑵𝒐𝒘 𝒐𝒏𝒍𝒚 𝒂𝒅𝒎𝒊𝒏 𝒄𝒂𝒏 𝒔𝒆𝒏𝒅 𝒎𝒆𝒔𝒔𝒂𝒈𝒆𝒔 !`, `${botname}`, wm_fatih, [])
        } else if(pea[0].announce == false) {
-       XeonBotInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑻𝒉𝒆 𝒈𝒓𝒐𝒖𝒑 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒐𝒑𝒆𝒏𝒆𝒅 𝒃𝒚 𝒂𝒅𝒎𝒊𝒏, 𝑵𝒐𝒘 𝒑𝒂𝒓𝒕𝒊𝒄𝒊𝒑𝒂𝒏𝒕𝒔 𝒄𝒂𝒏 𝒔𝒆𝒏𝒅 𝒎𝒆𝒔𝒔𝒂𝒈𝒆𝒔 !`, `${botname}`, wm_fatih, [])
+       AlexaQueenInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑻𝒉𝒆 𝒈𝒓𝒐𝒖𝒑 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒐𝒑𝒆𝒏𝒆𝒅 𝒃𝒚 𝒂𝒅𝒎𝒊𝒏, 𝑵𝒐𝒘 𝒑𝒂𝒓𝒕𝒊𝒄𝒊𝒑𝒂𝒏𝒕𝒔 𝒄𝒂𝒏 𝒔𝒆𝒏𝒅 𝒎𝒆𝒔𝒔𝒂𝒈𝒆𝒔 !`, `${botname}`, wm_fatih, [])
        } else if (pea[0].restrict == true) {
-       XeonBotInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑮𝒓𝒐𝒖𝒑 𝒊𝒏𝒇𝒐 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒓𝒆𝒔𝒕𝒓𝒊𝒄𝒕𝒆𝒅, 𝑵𝒐𝒘 𝒐𝒏𝒍𝒚 𝒂𝒅𝒎𝒊𝒏 𝒄𝒂𝒏 𝒆𝒅𝒊𝒕 𝒈𝒓𝒐𝒖𝒑 𝒊𝒏𝒇𝒐 !`, `${botname}`, wm_fatih, [])
+       AlexaQueenInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑮𝒓𝒐𝒖𝒑 𝒊𝒏𝒇𝒐 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒓𝒆𝒔𝒕𝒓𝒊𝒄𝒕𝒆𝒅, 𝑵𝒐𝒘 𝒐𝒏𝒍𝒚 𝒂𝒅𝒎𝒊𝒏 𝒄𝒂𝒏 𝒆𝒅𝒊𝒕 𝒈𝒓𝒐𝒖𝒑 𝒊𝒏𝒇𝒐 !`, `${botname}`, wm_fatih, [])
        } else if (pea[0].restrict == false) {
-       XeonBotInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑮𝒓𝒐𝒖𝒑 𝒊𝒏𝒇𝒐 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒐𝒑𝒆𝒏𝒆𝒅, 𝑵𝒐𝒘 𝒑𝒂𝒓𝒕𝒊𝒄𝒊𝒑𝒂𝒏𝒕𝒔 𝒄𝒂𝒏 𝒆𝒅𝒊𝒕 𝒈𝒓𝒐𝒖𝒑 𝒊𝒏𝒇𝒐 !`, `${botname}`, wm_fatih, [])
+       AlexaQueenInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑮𝒓𝒐𝒖𝒑 𝒊𝒏𝒇𝒐 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒐𝒑𝒆𝒏𝒆𝒅, 𝑵𝒐𝒘 𝒑𝒂𝒓𝒕𝒊𝒄𝒊𝒑𝒂𝒏𝒕𝒔 𝒄𝒂𝒏 𝒆𝒅𝒊𝒕 𝒈𝒓𝒐𝒖𝒑 𝒊𝒏𝒇𝒐 !`, `${botname}`, wm_fatih, [])
        } else {
-       XeonBotInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑮𝒓𝒐𝒖𝒑 𝑺𝒖𝒃𝒋𝒆𝒄𝒕 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒄𝒉𝒂𝒏𝒈𝒆𝒅 𝒕𝒐 *${pea[0].subject}*`, `${botname}`, wm_fatih, [])
+       AlexaQueenInc.send5ButImg(pea[0].id, `「 𝑮𝒓𝒐𝒖𝒑 𝑺𝒆𝒕𝒕𝒊𝒏𝒈𝒔 𝑪𝒉𝒂𝒏𝒈𝒆𝒅 」\n\n𝑮𝒓𝒐𝒖𝒑 𝑺𝒖𝒃𝒋𝒆𝒄𝒕 𝒉𝒂𝒔 𝒃𝒆𝒆𝒏 𝒄𝒉𝒂𝒏𝒈𝒆𝒅 𝒕𝒐 *${pea[0].subject}*`, `${botname}`, wm_fatih, [])
      }
     })
 
@@ -115,54 +115,54 @@ return list[Math.floor(list.length * Math.random())]
 let documents = [doc1,doc2,doc3,doc4,doc5,doc6]
 let docs = pickRandom(documents)
 
-XeonBotInc.ev.on('group-participants.update', async (anu) => {
+AlexaQueenInc.ev.on('group-participants.update', async (anu) => {
         console.log(anu)
         //if (!wlcm.includes(anu.id)) return //remove forwad slashes to make it welcome on off
         try {
-            let metadata = await XeonBotInc.groupMetadata(anu.id)
+            let metadata = await AlexaQueenInc.groupMetadata(anu.id)
             let participants = anu.participants
             for (let num of participants) {
                 // Get Profile Picture User
                 try {
-                    ppuser = await XeonBotInc.profilePictureUrl(num, 'image')
+                    ppuser = await AlexaQueenInc.profilePictureUrl(num, 'image')
                 } catch {
                     ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
 
                 // Get Profile Picture Group
                 try {
-                    ppgroup = await XeonBotInc.profilePictureUrl(anu.id, 'image')
+                    ppgroup = await AlexaQueenInc.profilePictureUrl(anu.id, 'image')
                 } catch {
                     ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
                 }
 
                 if (anu.action == 'add') {
                 const buffer = await getBuffer(ppuser)
-                let xeonName = num
+                let AlexaName = num
                 const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
-                let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                xeonbody = `┌─♬
-│「 𝑯𝒆𝒍𝒍𝒐🌚 」
-└┬♬ 「 @${xeonName.split("@")[0]}  」
+                let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "27686881509-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'alexa', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                alexabody = `┌─♬
+│「 𝑯𝒆𝒍𝒍𝒐❤️ 」
+└┬♬ 「 @${alexaName.split("@")[0]}  」
    │❏  𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝑻𝒐 
    │⚘  ${metadata.subject}
    │❏  𝑴𝒆𝒎𝒃𝒆𝒓 : 
    │⚘ ${xmembers}th
    │❏  𝑱𝒐𝒊𝒏𝒆𝒅 : 
    │⚘ ${xtime}
-   │❏ 𝑻𝒉𝒂𝒏𝒌𝒔 𝑭𝒐𝒓 𝑱𝒐𝒊𝒏 𝑻𝒉𝒆 𝑮𝒓𝒐𝒖𝒑🌝
-   │    ⚚𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 𝑴𝑫     
+   │❏ 𝑻𝒉𝒂𝒏𝒌𝒔 𝑭𝒐𝒓 𝑱𝒐𝒊𝒏 𝑻𝒉𝒆 𝑮𝒓𝒐𝒖𝒑🧚‍♂️
+   │    ⚚𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫     
    └───────────────┈❦`
    //if you copy the code value,
-   //dont forget to put my name(Xeon) as credit
+   //dont forget to put my name(Alexa) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
 {buttonId: `wkwwk`, buttonText: {displayText: '𝑻𝒉𝒂𝒏𝒌𝒔😌'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
+document: fs.readFileSync('./AlexaMedia/theme/alexa.xlsx'),
 mimetype: docs,
 jpegThumbnail:buffer,
 mentions: [num],
@@ -173,7 +173,7 @@ footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title: `⚚ʜᴇʟʟ ʙ͢ᴏʏ ᴍᴅ`,
+title: `ᴄʏʙᴇʀxᴋɪᴅ ᴀʟᴇxᴀ ᴍᴅ`,
 body: `Don't forget to read group description`,
 mediaType:2,
 thumbnail: buffer,
@@ -181,44 +181,44 @@ sourceUrl: `${websitex}`,
 mediaUrl: `${websitex}`
 }}
 }
-XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
+AlexaQueenInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                 } else if (anu.action == 'remove') {
                 	const buffer = await getBuffer(ppuser)
-                    const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-                	let xeonName = num
-                    const xeonmembers = metadata.participants.length
-                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                    xeonbody = `┌─♬
-│「 𝑮𝒐𝒐𝒅 𝑩𝒚𝒆🌝 」
-└┬♬ 「 @${xeonName.split("@")[0]}  」
+                    const alexatime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
+	                const alexadate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                	let alexaName = num
+                    const alexanmembers = metadata.participants.length
+                    let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "27686881509-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: buffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'alexa', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+                    alexabody = `┌─♬
+│「 𝑮𝒐𝒐𝒅 𝑩𝒚𝒆🥴 」
+└┬♬ 「 @${alexaName.split("@")[0]}  」
    │❏  𝑳𝒆𝒇𝒕 
    │⚘ ${metadata.subject}
    │❏  𝑴𝒆𝒎𝒃𝒆𝒓 : 
-   │⚘ ${xeonmembers}th
+   │⚘ ${alexamembers}th
    │❏  𝑻𝒊𝒎𝒆 : 
-   │⚘ ${xeontime} 
-   │    ⚚𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 𝑴𝑫
+   │⚘ ${alexatime} 
+   │    ⚚𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫
    └───────────────┈❦`
       //if you copy the code value,
-   //dont forget to put my name(Xeon) as credit
+   //dont forget to put my name(Alexa) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
 {buttonId: `wkwkwk`, buttonText: {displayText:'𝑮𝒆𝒕 𝑳𝒐𝒔𝒕🤧'}, type: 1}
 ]
 let buttonMessage = {
-document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
+document: fs.readFileSync('./AlexaMedia/theme/alexa.xlsx'),
 mimetype: docs,
 jpegThumbnail:buffer,
 mentions: [num],
 fileName: `${metadata.subject}`,
 fileLength: 111111111111111111,
-caption: xeonbody,
+caption: alexabody,
 footer: `${botname}`,
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title: `⚚ʜᴇʟʟ ʙ͢ᴏʏ ᴍᴅ`,
+title: `ᴄʏʙᴇʀxᴋɪᴅ ᴀʟᴇxᴀ ᴍᴅ`,
 body: `Bye! my friend, take care.`,
 mediaType:2,
 thumbnail: buffer,
