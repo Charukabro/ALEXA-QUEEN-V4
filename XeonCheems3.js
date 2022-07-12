@@ -10439,14 +10439,14 @@ await XeonBotInc.send5ButImg(from, `╔═══✪「 𝑫𝑨𝑻𝑨𝑩𝑨�
 ╠ ❐ 𝒍𝒊𝒔𝒕𝒎𝒔𝒈
 ╠ ❐ 𝒈𝒆𝒕𝒎𝒔𝒈
 ╠ ❐ 𝒅𝒆𝒍𝒎𝒔𝒈
-╠✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑯𝒆𝒍𝒍 𝑩𝒐𝒚⚟
+╠✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏⚟
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🌝","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'indomenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Indo Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 𝑰𝑵𝑫𝑶 」	
+await AlexaQueenInc.send5ButImg(from, `╔═══════✪「 𝑰𝑵𝑫𝑶 」	
 ╠ ❐ 𝒅𝒂𝒓𝒌𝒋𝒐𝒌𝒆
 ╠ ❐ 𝒒𝒖𝒐𝒕𝒆𝒔
 ╠ ❐ 𝒂𝒏𝒊𝒎𝒆𝒒𝒖𝒐𝒕𝒆𝒔
@@ -10478,14 +10478,14 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 𝑰𝑵𝑫�
 ╠❐ 𝒄𝒐𝒗𝒊𝒅𝒊𝒏𝒅𝒐
 ╠❐ 𝒆𝒂𝒓𝒕𝒉𝒒𝒖𝒂𝒌𝒆
 ╠❐ 𝒕𝒗𝒔𝒄𝒉𝒆𝒅𝒖𝒍𝒆
-╠✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑯𝒆𝒍𝒍 𝑩𝒐𝒚⚟
+╠✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏⚟
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🌝","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'indohoroscopemenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Indo Horoscope Menu')
-await XeonBotInc.send5ButImg(from, `╔═✪「 𝑰𝑵𝑫𝑶 𝑯𝑶𝑹𝑶𝑺𝑪𝑶𝑷𝑬 」	
+await AlexaQueenInc.send5ButImg(from, `╔═✪「 𝑰𝑵𝑫𝑶 𝑯𝑶𝑹𝑶𝑺𝑪𝑶𝑷𝑬 」	
 ╠❐ 𝒏𝒐𝒎𝒐𝒓𝒉𝒐𝒌𝒊
 ╠❐ 𝒂𝒓𝒕𝒊𝒎𝒊𝒎𝒑𝒊 
 ╠❐ 𝒂𝒓𝒕𝒊𝒏𝒂𝒎𝒂 
@@ -10516,14 +10516,14 @@ await XeonBotInc.send5ButImg(from, `╔═✪「 𝑰𝑵𝑫𝑶 𝑯𝑶𝑹�
 ╠❐ 𝒎𝒂𝒔𝒂𝒔𝒖𝒃𝒖𝒓
 ╠❐ 𝒛𝒐𝒅𝒊𝒂𝒌
 ╠❐ 𝒔𝒉𝒊𝒐
-╠✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑯𝒆𝒍𝒍 𝑩𝒐𝒚⚟
+╠✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏⚟
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🌝","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'othermenu':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 var unicorn = await getBuffer(picak+'Other Menu')
-await XeonBotInc.send5ButImg(from, `╔═══════✪「 𝑶𝑻𝑯𝑬𝑹 」	
+await AlexaQueenInc.send5ButImg(from, `╔═══════✪「 𝑶𝑻𝑯𝑬𝑹 」	
 ╠ ❐ 𝒂𝒇𝒌
 ╠ ❐ 𝒄𝒉𝒂𝒕𝒊𝒏𝒇𝒐
 ╠ ❐ 𝒂𝒍𝒊𝒗𝒆
@@ -10540,15 +10540,15 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 𝑶𝑻𝑯�
 ╠ ❐ 𝒅𝒐𝒏𝒂𝒕𝒆
 ╠ ❐ 𝒓𝒆𝒒𝒖𝒆𝒔𝒕
 ╠ ❐ 𝒓𝒆𝒑𝒐𝒓𝒕 [𝒃𝒖𝒈]
-╠✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑯𝒆𝒍𝒍 𝑩𝒐𝒚⚟
+╠✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏⚟
 ╚═════════════✪` + '' + ' ', `${botname}`,unicorn, [{"urlButton": {"displayText": "YouTube 📍","url": `${websitex}`}},{"urlButton": {"displayText": "Script🔖","url": `${botscript}`}},{"quickReplyButton": {"displayText": "Donate 🌝","id": 'donate'}},{"quickReplyButton": {"displayText": "Owner 👤","id": 'owner'}}] )
 break
 case 'tqtt': 
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(`❒ 𝑻𝒉𝒂𝒏𝒌𝒔 𝑨𝒍𝒍 𝑴𝒚 𝑭𝒓𝒊𝒆𝒏𝒅𝒔
-❒ 𝑫𝑮𝑿𝒆𝒐𝒏 𝑭𝒐𝒓 𝑻𝒉𝒊𝒔 𝑺𝒄𝒓𝒊𝒑𝒕
-❒ 𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 (𝒎𝒆)`)
+❒ 𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑭𝒐𝒓 𝑻𝒉𝒊𝒔 𝑺𝒄𝒓𝒊𝒑𝒕
+❒ 𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 (𝒎𝒆)`)
 break
 default:
 if (budy.startsWith('=>')) {
@@ -10564,7 +10564,7 @@ return reply(bang)
 try {
 reply(util.format(eval(`(async () => { ${budy.slice(3)} })()`)))
 } catch (e) {
-XeonBotInc.sendMessage(from, {image:err4r, caption:String(e)}, {quoted:m})
+AlexaQueenInc.sendMessage(from, {image:err4r, caption:String(e)}, {quoted:m})
 }
 }
 if (budy.startsWith('>')) {
@@ -10574,7 +10574,7 @@ let evaled = await eval(budy.slice(2))
 if (typeof evaled !== 'string') evaled = require('util').inspect(evaled)
 await reply(evaled)
 } catch (err) {
-await XeonBotInc.sendMessage(from, {image:err4r, caption:String(err)}, {quoted:m})
+await AlexaQueenInc.sendMessage(from, {image:err4r, caption:String(err)}, {quoted:m})
 }
 }
 //anonymous msg forwarder
@@ -10600,7 +10600,7 @@ if (m.chat.endsWith('@s.whatsapp.net') && isCmd) {
 if (budy.startsWith('$')) {
 if (!isCreator) return replay(mess.owner)
 exec(budy.slice(2), (err, stdout) => {
-if(err) return XeonBotInc.sendMessage(from, {image:err4r, caption:String(err)}, {quoted:m})
+if(err) return AlexaQueenInc.sendMessage(from, {image:err4r, caption:String(err)}, {quoted:m})
 if (stdout) return replay(stdout)
 })
 }
@@ -10612,29 +10612,29 @@ if (listTag.includes(partiNum)) {
 if (antitags === false) return
 if (!m.isGroup) return
 if (m.key.fromMe) return
-sendNye = fs.readFileSync('./XeonMedia/theme/yourtag.webp')
-XeonBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id])
-XeonBotInc.sendMessage(from, {sticker:sendNye, contextInfo:{forwardingScore: 800, isForwarded: true}}, {quoted:m})
+sendNye = fs.readFileSync('./AlexaMedia/theme/yourtag.webp')
+AlexaQueenInc.sendReadReceipt(m.chat, m.sender, [m.key.id])
+AlexaQueenInc.sendMessage(from, {sticker:sendNye, contextInfo:{forwardingScore: 800, isForwarded: true}}, {quoted:m})
 }
 //anti-tag 3
 if (budy.includes(`${global.ownertag}`)) {
 if (antitags === false) return
 if (!m.isGroup) return
 if (m.key.fromMe) return
-sendNye = fs.readFileSync('./XeonMedia/theme/yourtag.webp')
-XeonBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id])
-XeonBotInc.sendMessage(from, {sticker:sendNye, contextInfo:{forwardingScore: 800, isForwarded: true}}, {quoted:m})
+sendNye = fs.readFileSync('./AlexaMedia/theme/yourtag.webp')
+AlexaQueenInc.sendReadReceipt(m.chat, m.sender, [m.key.id])
+AlexaQueenInc.sendMessage(from, {sticker:sendNye, contextInfo:{forwardingScore: 800, isForwarded: true}}, {quoted:m})
 }
 if (isCmd && budy.toLowerCase() != undefined) {
 if (m.chat.endsWith('broadcast')) return
 if (m.isBaileys) return
 let msgs = global.db.database
 if (!(budy.toLowerCase() in msgs)) return
-XeonBotInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
+AlexaQueenInc.copyNForward(m.chat, msgs[budy.toLowerCase()], true)
 }
 }
 } catch (err) {
-XeonBotInc.sendMessage(`${ownertag}@s.whatsapp.net`, util.format(err), {quoted:m})
+AlexaQueenInc.sendMessage(`${ownertag}@s.whatsapp.net`, util.format(err), {quoted:m})
 console.log(err)
 }
 }
