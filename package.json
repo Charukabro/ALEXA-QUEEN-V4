@@ -1,6 +1,6 @@
 {
- "name": "CheemsBot-MD",
- "description": "Multi Device Whatsapp Bot By Xeon",
+ "name": "Alexa Queen",
+ "description": "Multi Device Whatsapp Bot By Cyberxkid",
  "version": "3.0.0",
  "main": "index.js",
  "type": "commonjs",
@@ -10,7 +10,7 @@
  "keywords": [
   "termux",
   "whatsapp",
-  "2021",
+  "2022",
   "wabase-md",
   "base",
   "baileys-md",
@@ -18,7 +18,7 @@
   "bot-md",
   "multi-device"
  ],
- "author": "Xeon",
+ "author": "Cyberxkid",
  "license": "MIT",
  "dependencies": {
   "@adiwajshing/baileys": "^4.0.1",
@@ -85,10 +85,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/DGXeon/CheemsBot-MD3.git"
+  "url": "git+https://github.com/CYBERXKID/ALEXA-QUEEN-V4.git"
  },
  "bugs": {
-  "url": "https://github.com/DGXeon/CheemsBot-MD3/issues"
+  "url": "https://github.com/CYBERXKID/ALEXA-QUEEN-V4/issues"
  },
- "homepage": "https://github.com/DGXeon/CheemsBot-MD3#readme"
+ "homepage": "https://github.com/CYBERXKID/ALEXA-QUEEN-V4#readme"
 }
