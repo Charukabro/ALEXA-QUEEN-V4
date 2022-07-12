@@ -3,12 +3,9 @@
 <h1 align="center">❏𝗔𝗟𝗘𝗫𝗔 𝗤𝗨𝗘𝗘𝗡 𝗩4❐<br></h1>
 <p align="center">
 
-![Banner](91d655a8417b6ec0e62c160794fc33aa.jpg) <br />
-</p>
-
-<p align="center">
-Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/TEXAXZ-S3R" target="_blank">TEXAXZ-S3R</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
-</p>
+<div align="center">
+  <img border-radius: 15px src="https://te.legra.ph/file/aaeedc5cc365be576c9d3.jpg/Alexaqueen.png" width="400" height="400"/>
+  <p align="center">
 
 <p align="center">
 <a href="https://youtu.be/xn9RatOrbuI"><img title="Size" src="https://img.shields.io/badge/Tutorial-Video-green"></a>
