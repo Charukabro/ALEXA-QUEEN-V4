@@ -1,16 +1,16 @@
 //════════════════════════════//
-//Hello Friends Its Me Hell boy
+//Hello Friends Its Me Cyberxkid
 //Thanks For All For The Support
-//If you Take This Code Give Credits @HELL-BOY,@DGXEON
+//If you Take This Code Give Credits @ALEXA-QUEEN,@CYBERXKID
 //════════════════════════════//
-//I Given The Creadits To DGXeon For The Script
-//✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑯𝒆𝒍𝒍 𝑩𝒐𝒚⚟
+//I Given The Creadits To Cyberxkid For The Script
+//✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏⚟
 //════════════════════════════//
 
 process.on('uncaughtException', console.error) //Error log
 require("./config")
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType, WAFlag } = require('@adiwajshing/baileys')
-const zXeonBotInc = require("@adiwajshing/baileys")
+const zAlexaQueenInc = require("@adiwajshing/baileys")
 const fs = require('fs')
 const util = require('util')
 const chalk = require('chalk')
@@ -48,9 +48,9 @@ const { Gempa } = require("./lib/gempa.js");
 const ms = require('ms')
  let { covid } = require('./lib/covid.js') 
 const { jadwaltv }= require('./lib/jadwaltv');
-const { XeonBotIncTiktok } = require('./lib/tiktokbyxeon');
+const { AlexaQueenIncTiktok } = require('./lib/tiktokbyxeon');
 const maker = require('mumaker')
-const xeonkey = require('xfarr-api')
+const alexakey = require('xfarr-api')
 const { hentai } = require('./lib/scraper2.js')
 let { msgFilter } = require('./lib/antispam')
 const { mediafireDl } = require('./lib/mediafire.js')
@@ -206,7 +206,7 @@ var syear = (yye < 1000) ? yye + 1900 : yye;
 const jangwak = (hri + '' + buln[bulnh] + '' + syear)
 const janghar = (thisDaye)
 
-module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
+module.exports = AlexaQueenInc = async (AlexaQueenInc, m, chatUpdate, store) => {
 try {
 var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
 var budy = (typeof m.text == 'string' ? m.text : '')
@@ -215,7 +215,7 @@ const isCmd = body.startsWith(prefix)
 const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
 const args = body.trim().split(/ +/).slice(1)
 const pushname = m.pushName || "No Name"
-const botNumber = await XeonBotInc.decodeJid(XeonBotInc.user.id)
+const botNumber = await AlexaQueenInc.decodeJid(AlexaQueenInc.user.id)
 const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
 const itsMe = m.sender == botNumber ? true : false
 const text = args.join(" ")
@@ -226,7 +226,7 @@ const isMedia = /image|video|sticker|audio/.test(mime)
 const messagesD = body.slice(0).trim().split(/ +/).shift().toLowerCase()
 
 // Group
-const groupMetadata = m.isGroup ? await XeonBotInc.groupMetadata(m.chat).catch(e => {}) : ''
+const groupMetadata = m.isGroup ? await AlexaQueenInc.groupMetadata(m.chat).catch(e => {}) : ''
 const groupName = m.isGroup ? groupMetadata.subject : ''
 const participants = m.isGroup ? await groupMetadata.participants : ''
 const groupAdmins = m.isGroup ? await participants.filter(v => v.admin !== null).map(v => v.id) : ''
@@ -280,43 +280,42 @@ const isImage = (m.type === 'imageMessage')
         const isQuotedReply = m.mtype === 'extendedTextMessage' && content.includes('Message')
 
 //rent
-_sewa.expiredCheck(XeonBotInc, sewa)
+_sewa.expiredCheck(AlexaQueenInc, sewa)
 
 //group target by xeon\\
 const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz1}`}}}, { quoted: m})
+            AlexaQueenInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./AlexaMedia/theme/cyberxkidpic.jpg`),"sourceUrl": `${linkz1}`}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
+            AlexaQueenInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./AlexaMedia/theme/cyberxkidpic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
         }
         //auto reply by xeon
   //if (Autoreply) //remove forwad slashes to make it autoreply on off
         for (let anji of setik){
 				if (budy === anji){
-					result = fs.readFileSync(`./XeonMedia/sticker/${anji}.webp`)
-					XeonBotInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
+					result = fs.readFileSync(`./AlexaMedia/sticker/${anji}.webp`)AlexaQueenInc.sendMessage(m.chat, { sticker: result }, { quoted: m })
 					}
 			}
 			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
 			for (let anju of vien){
 				if (budy === anju){
-					result = fs.readFileSync(`./XeonMedia/audio/${anju}.mp3`)
-					XeonBotInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
+					result = fs.readFileSync(`./AlexaMedia/audio/${anju}.mp3`)
+                      AlexaQueenInc.sendMessage(m.chat, { audio: result, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 					}
 			}
 			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
 			for (let anjh of imagi){
 				if (budy === anjh){
-					result = fs.readFileSync(`./XeonMedia/image/${anjh}.jpg`)
-					XeonBotInc.sendMessage(m.chat, { image: result }, { quoted: m })
+					result = fs.readFileSync(`./AlexaMedia/image/${anjh}.jpg`)
+					AlexaQueenInc.sendMessage(m.chat, { image: result }, { quoted: m })
 					}
 			}
 			  //if (Autoreply) //remove forwad slashes to make it autoreply on off
 					for (let anjh of videox){
 				if (budy === anjh){
-					result = fs.readFileSync(`./XeonMedia/video/${anjh}.mp4`)
-					XeonBotInc.sendMessage(m.chat, { video: result }, { quoted: m })
+					result = fs.readFileSync(`./AlexaMedia/video/${anjh}.mp4`)
+					AlexaQueenInc.sendMessage(m.chat, { video: result }, { quoted: m })
 					}
 				  }
 
@@ -324,24 +323,24 @@ const reply = (teks) => {
         if (isAutoSticker) {
             if (/image/.test(mime) && !/webp/.test(mime)) {
                 let mediac = await quoted.download()
-                await XeonBotInc.sendImageAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
+                await AlexaQueenInc.sendImageAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
                 console.log(`Auto sticker detected`)
             } else if (/video/.test(mime)) {
                 if ((quoted.msg || quoted).seconds > 11) return
                 let mediac = await quoted.download()
-                await XeonBotInc.sendVideoAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
+                await AlexaQueenInc.sendVideoAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
             }
         }
         //Autosticker pc
                 if (isAutoStick) {
             if (/image/.test(mime) && !/webp/.test(mime)) {
                 let mediac = await quoted.download()
-                await XeonBotInc.sendImageAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
+                await AlexaQueenInc.sendImageAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
                 console.log(`Auto sticker detected`)
             } else if (/video/.test(mime)) {
                 if ((quoted.msg || quoted).seconds > 11) return
                 let mediac = await quoted.download()
-                await XeonBotInc.sendVideoAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
+                await AlexaQueenInc.sendVideoAsSticker(from, mediac, m, { packname: global.packname, author: global.author })
             }
         }
 function randomNomor(angka){
@@ -356,7 +355,7 @@ console.log(chalk.black(chalk.bgWhite('[ MESSAGE ]')), chalk.black(chalk.bgGreen
 //antispam or auto react
 //if (m.message && msgFilter.isFiltered(from)) {
 //console.log(`${global.dogeemoji}[SPAM]`, color(moment(m.messageTimestamp * 1000).format('DD/MM/YYYY HH:mm:ss'), 'yellow'), color(`${command} [${args.length}]`), 'from', color(m.pushName))
-//return XeonBotInc.sendMessage(from, { react: { text: `${global.themeemoji}`, key: m.key }})
+//return AlexaQueenInc.sendMessage(from, { react: { text: `${global.themeemoji}`, key: m.key }})
 //}
         if (isCmd && !isUser){
 			pendaftar.push(m.sender)
@@ -552,7 +551,7 @@ var levelRole = getLevelingLevel(m.sender)
             roles = 'Exter'
         }
         // leveling function
-                        if (m.isGroup && isLeveling && isUser && XeonBotInc.public) {
+                        if (m.isGroup && isLeveling && isUser && AlexaQueenInc.public) {
                                 const currentLevel = getLevelingLevel(m.sender)
                                 const checkId = getLevelingId(m.sender)
                                 try {
@@ -565,7 +564,7 @@ var levelRole = getLevelingLevel(m.sender)
                                         if (requiredXp <= getLevelingXp(m.sender)) {
                                         addLevelingLevel(m.sender, 1)
 teks = `*──「 🥳LEVEL UP🥳 」──*\n\n${themeemoji} *Name*:  @${m.sender.split("@")[0]}\n${themeemoji} *XP*: ${getLevelingXp(m.sender)}\n${themeemoji} *Level*: ${getLevel} -> ${getLevelingLevel(m.sender)}\n${themeemoji} *Role*: ${role} \n\nCongrats!! 🎉`
-XeonBotInc.sendMessage(m.chat, {text: teks, mentions:[m.sender]}, {quoted:m})
+AlexaQueenInc.sendMessage(m.chat, {text: teks, mentions:[m.sender]}, {quoted:m})
 }
 
                         } catch (err) {
@@ -593,30 +592,30 @@ XeonBotInc.sendMessage(m.chat, {text: teks, mentions:[m.sender]}, {quoted:m})
 //auto read whatsapp status
 if (autoreadsw) {
 		if (from === 'status@broadcast') {
-		XeonBotInc.chatRead(from)
+		AlexaQueenInc.chatRead(from)
 	}
 	}
 //autoreader gc and pm
 if (global.autoreadpmngc) {
 if (command) {
-await XeonBotInc.sendPresenceUpdate('composing', m.chat)
-XeonBotInc.sendReadReceipt(from, m.sender, [m.key.id])}
+await AlexaQueenInc.sendPresenceUpdate('composing', m.chat)
+AlexaQueenInc.sendReadReceipt(from, m.sender, [m.key.id])}
 }
   //autoread gc only
   if (global.autoReadGc) {
-  if (m.isGroup) { XeonBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
+  if (m.isGroup) { AlexaQueenInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
 }
 //autoread all
-  if (global.autoReadAll) { if (m.chat) { XeonBotInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
+  if (global.autoReadAll) { if (m.chat) { AlexaQueenInc.sendReadReceipt(m.chat, m.sender, [m.key.id]) }
   }
   //auto recording all
-    if (global.autoRecord) { if (m.chat) { XeonBotInc.sendPresenceUpdate('recording', m.chat) }
+    if (global.autoRecord) { if (m.chat) { AlexaQueenInc.sendPresenceUpdate('recording', m.chat) }
 }
 //autotyper all
-  if (global.autoTyping) { if (m.chat) { XeonBotInc.sendPresenceUpdate('composing', m.chat) }
+  if (global.autoTyping) { if (m.chat) { AlexaQueenInc.sendPresenceUpdate('composing', m.chat) }
 }
 //auto available all
-  if (global.available) { if (m.chat) { XeonBotInc.sendPresenceUpdate('available', m.chat) }
+  if (global.available) { if (m.chat) { AlexaQueenInc.sendPresenceUpdate('available', m.chat) }
   }
 
 const hariRaya = new Date('6 1, 2022 00:00:00')
@@ -689,7 +688,7 @@ const order = generateWAMessageFromContent(jid, proto.Message.fromObject({
 "totalCurrencyCode": "IDR", // Up to you
 }
 }), { userJid: jid })
-XeonBotInc.relayMessage(jid, order.message, { messageId: order.key.id})
+AlexaQueenInc.relayMessage(jid, order.message, { messageId: order.key.id})
 }
 
 //function rpg
@@ -822,7 +821,7 @@ user.afkReason = ''
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Type .owner to join your whatsapp group`
-sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'), `${watermark}`, `${botname}`, "916909137213@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./AlexaMedia/theme/cyberxkidpic.jpg'), `${watermark}`, `${botname}`, "27686881508@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 /*const bodyyy = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
 if (!isCmd && !m.isGroup && !m.key.fromMe) {
@@ -833,7 +832,7 @@ await XeonBotInc.sendMessage(from, {text:sami}, {quoted:m})
 
 // AntiLink
 if (AntiLink) {
-linkgce = await XeonBotInc.groupInviteCode(from)
+linkgce = await AlexaQueenInc.groupInviteCode(from)
 if (budy.includes(`https://chat.whatsapp.com/${linkgce}`)) {
 reply(`\`\`\`「 Group Link Detected 」\`\`\`\n\nYou won't be kicked by a bot because what you send is a link to this group`)
 } else if (isUrl(m.text)) {
@@ -842,12 +841,12 @@ if (isAdmins) return reply(bvl)
 if (m.key.fromMe) return reply(bvl)
 if (isCreator) return reply(bvl)
 kice = m.sender
-await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
-XeonBotInc.sendMessage(from, {text:`\`\`\`「 Group Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+await AlexaQueenInc.groupParticipantsUpdate(m.chat, [kice], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
+AlexaQueenInc.sendMessage(from, {text:`\`\`\`「 Group Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
 }
-  // Antiwame by xeon
+  // Antiwame by alexa
   if (antiWame)
   if (budy.includes(`wa.me`)) {
 if (!isBotAdmins) return
