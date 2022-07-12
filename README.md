@@ -16,15 +16,15 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 
 # Thanks to
 
- [@DG XEON](https://github.com/DGXeon) for [CHEEMSBOT-MD3](https://github.com/DGXeon/Cheemsbot-MD3)
+ [@CYBERXKID](https://github.com/CYBERXKID) for [ALEXA QUEEN V4](https://github.com/CYBERXKID/ALEXA-QUEEN-V4)
 ------
 
 # ```Bot Info```
 <p align="center">
-<a href="https://github.com/TEXAXZ-S3R/followers"><img title="Followers" src="https://img.shields.io/github/followers/TEXAXZ-S3R?color=red&style=flat-square"></a>
-<a href="https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TEXAXZ-S3R/HELL-BOY-MD-V3?color=blue&style=flat-square"></a>
-<a href="https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/network/members"><img title="Forks" src="https://img.shields.io/github/forks/TEXAXZ-S3R/HELL-BOY-MD-V3?color=red&style=flat-square"></a>
-<a href="https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/TEXAXZ-S3R/HELL-BOY-MD-V3?label=Watchers&color=blue&style=flat-square"></a>
+<a href="https://github.com/CYBERXKID/followers"><img title="Followers" src="https://img.shields.io/github/followers/TEXAXZ-S3R?color=red&style=flat-square"></a>
+<a href="https://github.com/CYBERXKID/ALEXA-QUEEN-V4/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/TEXAXZ-S3R/H ALEXA-QUEEN-V4?color=blue&style=flat-square"></a>
+<a href="https://github.com/CYBERXKID/ALEXA-QUEEN-V4/network/members"><img title="Forks" src="https://img.shields.io/github/forks/CYBERXKID-ALEXA-QUEEN-V4?color=red&style=flat-square"></a>
+<a href="https://github.com/CYBERXKID/ALEXA-QUEEN-V4/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/CYBERXKID/ALEXA-QUEEN-V4?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FTEXAXZ-S3R%2FHELL-BOY-MD-V3&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
