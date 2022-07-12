@@ -1,14 +1,14 @@
 //════════════════════════════//
-//Hello Friends Its Me Hell boy
+//Hello Friends Its Me Cyberxkid
 //Thanks For All For The Support
-//If you Take This Code Give Credits @HELL-BOY,@DGXEON
+//If you Take This Code Give Credits @CYBERXKID,@ALEXA
 //════════════════════════════//
-//Given The Creadits To DGXeon For The Script
-//✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑯𝒆𝒍𝒍 𝑩𝒐𝒚⚟
+//Given The Creadits To CYBERXKID For The Script
+//✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅⚟
 //════════════════════════════//
 
 require("./config.js")
-const { default: XeonBotIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: AlexaIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const fs = require('fs')
@@ -29,8 +29,8 @@ const {
 
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
-async function startXeonBotInc() {
-console.log(color(figlet.textSync('Cheems Bot-MD', {
+async function startAlexaQueenInc() {
+console.log(color(figlet.textSync('ALEXA-QUEEN-V4', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -38,26 +38,26 @@ console.log(color(figlet.textSync('Cheems Bot-MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 console.log(color('\n YT CHANNEL: Nop ','silver'))
-console.log(color('GITHUB: HELLBOY7561 ','silver'))
+console.log(color('GITHUB: CYBERXKID ','silver'))
 console.log(color('WA NUMBER: +917561823024 ','silver'))
-console.log(color('  𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 𝑴𝑫 2022','mediumseagreen'))
+console.log(color('  𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫 2022','mediumseagreen'))
     console.log(color('🌝','red'), color('I Wrote This Script By Myself!', 'yellow'))
     console.log(color('🌝','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('🌝','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
     console.log(color('🌝', 'cyan'), color('https://wa.me/917561823024'))
-    console.log(color('🌝', 'cyan'), color('𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 𝑴𝑫 𝑰𝒔 𝑶𝒏𝒍𝒊𝒏𝒆...', 'pink'))
+    console.log(color('🌝', 'cyan'), color('𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫 𝑰𝒔 𝑶𝒏𝒍𝒊𝒏𝒆...', 'pink'))
     console.log(color('🌝', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('🌝','red'), color('𝑻𝒉𝒂𝒏𝒌𝒔 𝑭𝒐𝒓 𝑼𝒔𝒊𝒏𝒈 𝑯𝒆𝒍𝒍 𝑩𝒐𝒚 𝑴𝑫', 'white'))
+    console.log(color('🌝','red'), color('𝑻𝒉𝒂𝒏𝒌𝒔 𝑭𝒐𝒓 𝑼𝒔𝒊𝒏𝒈 𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫', 'white'))
     let { version, isLatest } = await fetchLatestBaileysVersion()
-    const XeonBotInc = XeonBotIncConnect({
+    const AlexaQueenInc = AlexaQueenIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Subscribe Xeon','Safari','1.0.0'],
+        browser: ['Subscribe Alexa','Safari','1.0.0'],
         auth: state,
         version
     })
     
-store.bind(XeonBotInc.ev)
+store.bind(AlexaQueenInc.ev)
 
     // anticall auto block
     XeonBotInc.ws.on('CB:call', async (json) => {
