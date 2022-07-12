@@ -1,14 +1,14 @@
 //════════════════════════════//
 //Hello Friends Its Me Cyberxkid
 //Thanks For All For The Support
-//If you Take This Code Give Credits @CYBERXKID,@ALEXA
+//If you Take This Code Give Credits @Cyberxkid,@ALEXA
 //════════════════════════════//
 //Given The Creadits To CYBERXKID For The Script
 //✍ ⚞𝑹𝒆𝒅𝒊𝒕𝒆𝒅 𝑩𝒚 𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅⚟
 //════════════════════════════//
 
 require("./config.js")
-const { default: AlexaIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
+const { default: AlexaQueenIncConnect, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
 const { state, saveState } = useSingleFileAuthState(`./${sessionName}.json`)
 const pino = require('pino')
 const fs = require('fs')
@@ -39,15 +39,15 @@ console.log(color(figlet.textSync('ALEXA-QUEEN-V4', {
         }), 'yellow'))
 console.log(color('\n YT CHANNEL: Nop ','silver'))
 console.log(color('GITHUB: CYBERXKID ','silver'))
-console.log(color('WA NUMBER: +917561823024 ','silver'))
-console.log(color('  𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫 2022','mediumseagreen'))
+console.log(color('WA NUMBER: +27686881509 ','silver'))
+console.log(color('  𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏 𝑴𝑫 2022','mediumseagreen'))
     console.log(color('🌝','red'), color('I Wrote This Script By Myself!', 'yellow'))
     console.log(color('🌝','red'), color('Source Code Version: 3.0', 'aqua'))
     console.log(color('🌝','red'), color('Bug? Error? Suggestion? Talk to developer:', 'aqua'))
     console.log(color('🌝', 'cyan'), color('https://wa.me/917561823024'))
-    console.log(color('🌝', 'cyan'), color('𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫 𝑰𝒔 𝑶𝒏𝒍𝒊𝒏𝒆...', 'pink'))
+    console.log(color('🌝', 'cyan'), color('𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏 𝑴𝑫 𝑰𝒔 𝑶𝒏𝒍𝒊𝒏𝒆...', 'pink'))
     console.log(color('🌝', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('🌝','red'), color('𝑻𝒉𝒂𝒏𝒌𝒔 𝑭𝒐𝒓 𝑼𝒔𝒊𝒏𝒈 𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫', 'white'))
+    console.log(color('🌝','red'), color('𝑻𝒉𝒂𝒏𝒌𝒔 𝑭𝒐𝒓 𝑼𝒔𝒊𝒏𝒈 𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏 𝑴𝑫', 'white'))
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const AlexaQueenInc = AlexaQueenIncConnect({
         logger: pino({ level: 'silent' }),
@@ -153,7 +153,7 @@ AlexaQueenInc.ev.on('group-participants.update', async (anu) => {
    │❏  𝑱𝒐𝒊𝒏𝒆𝒅 : 
    │⚘ ${xtime}
    │❏ 𝑻𝒉𝒂𝒏𝒌𝒔 𝑭𝒐𝒓 𝑱𝒐𝒊𝒏 𝑻𝒉𝒆 𝑮𝒓𝒐𝒖𝒑🧚‍♂️
-   │    ⚚𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫     
+   │    ⚚𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏 𝑴𝑫     
    └───────────────┈❦`
    //if you copy the code value,
    //dont forget to put my name(Alexa) as credit
@@ -198,7 +198,7 @@ AlexaQueenInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
    │⚘ ${alexamembers}th
    │❏  𝑻𝒊𝒎𝒆 : 
    │⚘ ${alexatime} 
-   │    ⚚𝑪𝒚𝒃𝒆𝒓𝒙𝒌𝒊𝒅 𝑴𝑫
+   │    ⚚𝑨𝒍𝒆𝒙𝒂 𝑸𝒖𝒆𝒆𝒏 𝑴𝑫
    └───────────────┈❦`
       //if you copy the code value,
    //dont forget to put my name(Alexa) as credit
@@ -226,7 +226,7 @@ sourceUrl: `${websitex}`,
 mediaUrl: `${websitex}`
 }}
 }
-XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
+AlexaQueenInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                 }
             }
         } catch (err) {
@@ -235,7 +235,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
     })
     
 // Setting
-    XeonBotInc.decodeJid = (jid) => {
+    AlexaQueenInc.decodeJid = (jid) => {
         if (!jid) return jid
         if (/:\d+@/gi.test(jid)) {
             let decode = jidDecode(jid) || {}
@@ -243,44 +243,44 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         } else return jid
     }
     
-    XeonBotInc.ev.on('contacts.update', update => {
+    AlexaQueenInc.ev.on('contacts.update', update => {
         for (let contact of update) {
-            let id = XeonBotInc.decodeJid(contact.id)
+            let id = AlexaQueenInc.decodeJid(contact.id)
             if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }
         }
     })
 
-    XeonBotInc.getName = (jid, withoutContact  = false) => {
-        id = XeonBotInc.decodeJid(jid)
-        withoutContact = XeonBotInc.withoutContact || withoutContact 
+    AlexaQueenInc.getName = (jid, withoutContact  = false) => {
+        id = AlexaQueenInc.decodeJid(jid)
+        withoutContact = AlexaQueenInc.withoutContact || withoutContact 
         let v
         if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
             v = store.contacts[id] || {}
-            if (!(v.name || v.subject)) v = XeonBotInc.groupMetadata(id) || {}
+            if (!(v.name || v.subject)) v = AlexaQueenInc.groupMetadata(id) || {}
             resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
         })
         else v = id === '0@s.whatsapp.net' ? {
             id,
             name: 'WhatsApp'
-        } : id === XeonBotInc.decodeJid(XeonBotInc.user.id) ?
-            XeonBotInc.user :
+        } : id === AlexaQueenInc.decodeJid(AlexaQueenInc.user.id) ?
+            AlexaQueenInc.user :
             (store.contacts[id] || {})
             return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')
     }
     
-        XeonBotInc.sendContact = async (jid, kon, quoted = '', opts = {}) => {
+        AlexaQueenInc.sendContact = async (jid, kon, quoted = '', opts = {}) => {
 	let list = []
 	for (let i of kon) {
 	    list.push({
-	    	displayName: await XeonBotInc.getName(i + '@s.whatsapp.net'),
-	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await XeonBotInc.getName(i + '@s.whatsapp.net')}\nFN:${global.ownername}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${global.ytname}\nitem2.X-ABLabel:YouTube\nitem3.URL:${global.socialm}\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${global.location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
+	    	displayName: await AlexaQueenInc.getName(i + '@s.whatsapp.net'),
+	    	vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await AlexaQueenInc.getName(i + '@s.whatsapp.net')}\nFN:${global.ownername}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${global.ytname}\nitem2.X-ABLabel:YouTube\nitem3.URL:${global.socialm}\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${global.location};;;;\nitem4.X-ABLabel:Region\nEND:VCARD`
 	    })
 	}
-	XeonBotInc.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
+    AlexaQueenInc.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
     }
     
-    XeonBotInc.setStatus = (status) => {
-        XeonBotInc.query({
+    AlexaQueenInc.setStatus = (status) => {
+        AlexaQueenInc.query({
             tag: 'iq',
             attrs: {
                 to: '@s.whatsapp.net',
@@ -296,11 +296,11 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         return status
     }
 	
-    XeonBotInc.public = true
+    AlexaQueenInc.public = true
 
-    XeonBotInc.serializeM = (m) => smsg(XeonBotInc, m, store)
+    AlexaQueenInc.serializeM = (m) => smsg(AlexaQueenInc, m, store)
 
-    XeonBotInc.ev.on('connection.update', async (update) => {
+    AlexaQueenInc.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update	    
         if (connection === 'close') {
         let reason = lastDisconnect.error ? lastDisconnect?.error?.output.statusCode : 0;
@@ -316,7 +316,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         console.log('Connected...', update)
     })
 
-    XeonBotInc.ev.on('creds.update', saveState)
+    AlexaQueenInc.ev.on('creds.update', saveState)
 
     // Add Other
    
@@ -330,8 +330,8 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options
      * @returns
      */
-    XeonBotInc.send5ButImg = async (jid , text = '' , footer = '', img, but = [], thumb, options = {}) =>{
-        let message = await prepareWAMessageMedia({ image: img, jpegThumbnail:thumb }, { upload: XeonBotInc.waUploadToServer })
+    AlexaQueenInc.send5ButImg = async (jid , text = '' , footer = '', img, but = [], thumb, options = {}) =>{
+        let message = await prepareWAMessageMedia({ image: img, jpegThumbnail:thumb }, { upload: AlexaQueenInc.waUploadToServer })
         var template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
         templateMessage: {
         hydratedTemplate: {
@@ -342,7 +342,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
             }
             }
             }), options)
-            XeonBotInc.relayMessage(jid, template.message, { messageId: template.key.id })
+            AlexaQueenInc.relayMessage(jid, template.message, { messageId: template.key.id })
     }
 
     /**
@@ -354,7 +354,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} quoted 
      * @param {*} options 
      */
-    XeonBotInc.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
+    AlexaQueenInc.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
         let buttonMessage = {
             text,
             footer,
@@ -362,7 +362,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
             headerType: 2,
             ...options
         }
-        XeonBotInc.sendMessage(jid, buttonMessage, { quoted, ...options })
+        AlexaQueenInc.sendMessage(jid, buttonMessage, { quoted, ...options })
     }
     
     /**
@@ -373,7 +373,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.sendText = (jid, text, quoted = '', options) => XeonBotInc.sendMessage(jid, { text: text, ...options }, { quoted })
+    AlexaQueenInc.sendText = (jid, text, quoted = '', options) => AlexaQueenInc.sendMessage(jid, { text: text, ...options }, { quoted })
 
     /**
      * 
@@ -384,9 +384,9 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.sendImage = async (jid, path, caption = '', quoted = '', options) => {
+    AlexaQueenInc.sendImage = async (jid, path, caption = '', quoted = '', options) => {
 	let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await XeonBotInc.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
+        return await AlexaQueenInc.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })
     }
 
     /**
@@ -398,9 +398,9 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.sendVideo = async (jid, path, caption = '', quoted = '', gif = false, options) => {
+    AlexaQueenInc.sendVideo = async (jid, path, caption = '', quoted = '', gif = false, options) => {
         let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await XeonBotInc.sendMessage(jid, { video: buffer, caption: caption, gifPlayback: gif, ...options }, { quoted })
+        return await AlexaQueenInc.sendMessage(jid, { video: buffer, caption: caption, gifPlayback: gif, ...options }, { quoted })
     }
 
     /**
@@ -412,9 +412,9 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.sendAudio = async (jid, path, quoted = '', ptt = false, options) => {
+    AlexaQueenInc.sendAudio = async (jid, path, quoted = '', ptt = false, options) => {
         let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
-        return await XeonBotInc.sendMessage(jid, { audio: buffer, ptt: ptt, ...options }, { quoted })
+        return await AlexaQueenInc.sendMessage(jid, { audio: buffer, ptt: ptt, ...options }, { quoted })
     }
 
     /**
@@ -425,7 +425,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.sendTextWithMentions = async (jid, text, quoted, options = {}) => XeonBotInc.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
+    AlexaQueenInc.sendTextWithMentions = async (jid, text, quoted, options = {}) => AlexaQueenInc.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
 
     /**
      * 
@@ -435,7 +435,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
+    AlexaQueenInc.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
         let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         let buffer
         if (options && (options.packname || options.author)) {
@@ -444,7 +444,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
             buffer = await imageToWebp(buff)
         }
 
-        await XeonBotInc.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
+        await AlexaQueenInc.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
         return buffer
     }
 
@@ -456,7 +456,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.sendVideoAsSticker = async (jid, path, quoted, options = {}) => {
+    AlexaQueenInc.sendVideoAsSticker = async (jid, path, quoted, options = {}) => {
         let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
         let buffer
         if (options && (options.packname || options.author)) {
@@ -465,11 +465,11 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
             buffer = await videoToWebp(buff)
         }
 
-        await XeonBotInc.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
+        await AlexaQueenInc.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
         return buffer
     }
-	XeonBotInc.sendMedia = async (jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
-        let types = await XeonBotInc.getFile(path, true)
+   AlexaQueenInc.sendMedia = async (jid, path, fileName = '', caption = '', quoted = '', options = {}) => {
+        let types = await AlexaQueenInc.getFile(path, true)
            let { mime, ext, res, data, filename } = types
            if (res && res.status !== 200 || file.length <= 65536) {
                try { throw { json: JSON.parse(file.toString()) } }
@@ -489,7 +489,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
        else if (/video/.test(mime)) type = 'video'
        else if (/audio/.test(mime)) type = 'audio'
        else type = 'document'
-       await XeonBotInc.sendMessage(jid, { [type]: { url: pathFile }, caption, mimetype, fileName, ...options }, { quoted, ...options })
+       await AlexaQueenInc.sendMessage(jid, { [type]: { url: pathFile }, caption, mimetype, fileName, ...options }, { quoted, ...options })
        return fs.promises.unlink(pathFile)
        }
     /**
@@ -499,7 +499,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} attachExtension 
      * @returns 
      */
-    XeonBotInc.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
+    AlexaQueenInc.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
         let quoted = message.msg ? message.msg : message
         let mime = (message.msg || message).mimetype || ''
         let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
@@ -515,7 +515,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         return trueFileName
     }
 
-    XeonBotInc.downloadMediaMessage = async (message) => {
+    AlexaQueenInc.downloadMediaMessage = async (message) => {
         let mime = (message.msg || message).mimetype || ''
         let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
         const stream = await downloadContentFromMessage(message, messageType)
@@ -535,7 +535,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} options 
      * @returns 
      */
-    XeonBotInc.copyNForward = async (jid, message, forceForward = false, options = {}) => {
+    AlexaQueenInc.copyNForward = async (jid, message, forceForward = false, options = {}) => {
         let vtype
 		if (options.readViewOnce) {
 			message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
@@ -566,12 +566,12 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                 }
             } : {})
         } : {})
-        await XeonBotInc.relayMessage(jid, waMessage.message, { messageId:  waMessage.key.id })
+        await AlexaQueenInc.relayMessage(jid, waMessage.message, { messageId:  waMessage.key.id })
         return waMessage
     }
 
 //sendlistmsg by xeon
-        XeonBotInc.sendListMsg = (jid, text = '', footer = '', title = '' , butText = '', sects = [], quoted) => {
+        AlexaQueenInc.sendListMsg = (jid, text = '', footer = '', title = '' , butText = '', sects = [], quoted) => {
         let sections = sects
         var listMes = {
         text: text,
@@ -580,10 +580,10 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         buttonText: butText,
         sections
         }
-        XeonBotInc.sendMessage(jid, listMes, { quoted: quoted })
+        AlexaQueenInc.sendMessage(jid, listMes, { quoted: quoted })
         }
         
-    XeonBotInc.cMod = (jid, copy, text = '', sender = XeonBotInc.user.id, options = {}) => {
+    AlexaQueenInc.cMod = (jid, copy, text = '', sender = AlexaQueenInc.user.id, options = {}) => {
         //let copy = message.toJSON()
 		let mtype = Object.keys(copy.message)[0]
 		let isEphemeral = mtype === 'ephemeralMessage'
@@ -604,7 +604,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
 		if (copy.key.remoteJid.includes('@s.whatsapp.net')) sender = sender || copy.key.remoteJid
 		else if (copy.key.remoteJid.includes('@broadcast')) sender = sender || copy.key.remoteJid
 		copy.key.remoteJid = jid
-		copy.key.fromMe = sender === XeonBotInc.user.id
+		copy.key.fromMe = sender === AlexaQueenInc.user.id
 
         return proto.WebMessageInfo.fromObject(copy)
     }
@@ -615,7 +615,7 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
      * @param {*} path 
      * @returns 
      */
-    XeonBotInc.getFile = async (PATH, save) => {
+    AlexaQueenInc.getFile = async (PATH, save) => {
         let res
         let data = Buffer.isBuffer(PATH) ? PATH : /^data:.*?\/.*?;base64,/i.test(PATH) ? Buffer.from(PATH.split`,`[1], 'base64') : /^https?:\/\//.test(PATH) ? await (res = await getBuffer(PATH)) : fs.existsSync(PATH) ? (filename = PATH, fs.readFileSync(PATH)) : typeof PATH === 'string' ? PATH : Buffer.alloc(0)
         //if (!Buffer.isBuffer(data)) throw new TypeError('Result is not a buffer')
@@ -635,8 +635,8 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
 
     }
     //send5butgif by xeon
-        XeonBotInc.send5ButGif = async (jid , text = '' , footer = '', gif, but = [], options = {}) =>{
-        let message = await prepareWAMessageMedia({ video: gif, gifPlayback: true }, { upload: XeonBotInc.waUploadToServer })
+        AlexaQueenInc.send5ButGif = async (jid , text = '' , footer = '', gif, but = [], options = {}) =>{
+        let message = await prepareWAMessageMedia({ video: gif, gifPlayback: true }, { upload: AlexaQueenInc.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
         templateMessage: {
         hydratedTemplate: {
@@ -647,11 +647,11 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
             }
             }
             }), options)
-            XeonBotInc.relayMessage(jid, template.message, { messageId: template.key.id })
+            AlexaQueenInc.relayMessage(jid, template.message, { messageId: template.key.id })
     }
     //send5butvid by xeon
-        XeonBotInc.send5ButVid = async (jid , text = '' , footer = '', vid, but = [], options = {}) =>{
-        let message = await prepareWAMessageMedia({ video: vid }, { upload: XeonBotInc.waUploadToServer })
+        AlexaQueenInc.send5ButVid = async (jid , text = '' , footer = '', vid, but = [], options = {}) =>{
+        let message = await prepareWAMessageMedia({ video: vid }, { upload: AlexaQueenInc.waUploadToServer })
         var template = generateWAMessageFromContent(jid, proto.Message.fromObject({
         templateMessage: {
         hydratedTemplate: {
@@ -662,21 +662,21 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
             }
             }
             }), options)
-            XeonBotInc.relayMessage(jid, template.message, { messageId: template.key.id })
+            AlexaQueenInc.relayMessage(jid, template.message, { messageId: template.key.id })
     }
     //send5butmsg
-            XeonBotInc.send5ButMsg = (jid, text = '' , footer = '', but = []) =>{
+            AlexaQueenInc.send5ButMsg = (jid, text = '' , footer = '', but = []) =>{
         let templateButtons = but
         var templateMessage = {
         text: text,
         footer: footer,
         templateButtons: templateButtons
         }
-        XeonBotInc.sendMessage(jid, templateMessage)
+        AlexaQueenInc.sendMessage(jid, templateMessage)
         }
         
-    XeonBotInc.sendFile = async(jid, PATH, fileName, quoted = {}, options = {}) => {
-        let types = await XeonBotInc.getFile(PATH, true)
+    AlexaQueenInc.sendFile = async(jid, PATH, fileName, quoted = {}, options = {}) => {
+        let types = await AlexaQueenInc.getFile(PATH, true)
         let { filename, size, ext, mime, data } = types
         let type = '', mimetype = mime, pathFile = filename
         if (options.asDocument) type = 'document'
@@ -692,17 +692,17 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
         else if (/video/.test(mime)) type = 'video'
         else if (/audio/.test(mime)) type = 'audio'
         else type = 'document'
-        await XeonBotInc.sendMessage(jid, { [type]: { url: pathFile }, mimetype, fileName, ...options }, { quoted, ...options })
+        await AlexaQueenInc.sendMessage(jid, { [type]: { url: pathFile }, mimetype, fileName, ...options }, { quoted, ...options })
         return fs.promises.unlink(pathFile)
     }
-    XeonBotInc.parseMention = async(text) => {
+    AlexaQueenInc.parseMention = async(text) => {
         return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')
     }
 
-    return XeonBotInc
+    return AlexaQueenInc
 }
 
-startXeonBotInc()
+startAlexaQueenInc()
 
 
 let file = require.resolve(__filename)
