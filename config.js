@@ -3,12 +3,12 @@
 //or copy the codes/script,
 //pls give credit
 //no credit? i will take action immediately
-//© 2022 Xeon Bot Inc. Cheems Bot MD
+//© 2022 Alexa Queen Inc. Alexa Queen MD
 //Thank you to Lord Buddha, Family and Myself
 //════════════════════════════//
 //recode kar ke youtube pe upload kar rhe ya
 //codes copy kar ke apne script me dal rhe
-//hai to, description me xeon ka yt channel
+//hai to, description me alexa ka yt channel
 // ka link paste kr dena as a cradit or github 
 //repo me bhi tag kardena baki jo
 //bhi karna hai apki marzi, thank you!🦄
@@ -41,32 +41,32 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['687728888'] //ur owner number
-global.ownername = "ꪶ«͒͢ᴛͥᴇͭxᷤᴀ͓͛xͫᴢͤ⿕s͎͍ᴇᷳʀᷬ»͓͛ꫂ"
-global.ytname = "YT: 𝜯𝜠𝜲𝜟𝜲𝜡 𝜝𝜭𝜯" //ur yt chanel name
-global.socialm = "GitHub: TEXAXZ-S3R" //ur github or insta name
+global.owner = ['27686881509'] //ur owner number
+global.ownername = "ꪶᴄʏʙᴇʀxᴋɪᴅᷬ»͓͛ꫂ"
+global.ytname = "YT: 𝑨𝑳𝑬𝑿𝑨 𝑸𝑼𝑬𝑬𝑵" //ur yt chanel name
+global.socialm = "GitHub: CYBERXKID" //ur github or insta name
 global.location = "India, Kerala, kottayam" //ur location
 
 //bot bombdy
-global.botname = "🤖ꪶ𝛃𝛟𝛕⚚𑜋𝛂𝛊𝟋𝛖ꫂ👻 𝜧𝑫" //ur bot name
+global.botname = "🧚‍♂️𝑨𝑳𝑬𝑿𝑨 𝑸𝑼𝑬𝑬𝑵🧚‍♂️ 𝜧𝑫" //ur bot name
 global.websitex = "https://youtube.com/channel/UtUbE-IlLa-MyR-0010" //ur website
 global.vidmenu = { url: 'https://a.uguu.se/zlzQZvXH.mp4' } //gif and video menu
-global.packname = "㖻𝛃◉𝚻❰𑜏αι𝟋𝛖❱⋆⛨─ᷟ─ͣ─ᷤ─ᷤ⁩❥𝄤"
-global.author = "玄ꪎ𝟕 ⛒ 𝚻𝜺✘𝛂✘𝚭 »͓̽"
+global.packname = "㖻☬𝑨𝑳𝑬𝑿𝑨 𝑸𝑼𝑬𝑬𝑵☬⋆⛨─ᷟ─ͣ─ᷤ─ᷤ⁩❥𝄤"
+global.author = "玄ꪎ𝟕 ⛒ 𝐂𝒀𝐵𝜺𝐑𝐗𝐊𝐈𝐃 »͓̽"
 global.themeemoji = "❏"
 global.reactmoji = "🌝"
-global.ownertag = ['687728888'] //ur owner tag
-global.ownernummenu = ['687728888'] //ur owner number in menu and all
-global.watermark = "🤖ꪶ𝛃𝛟𝛕⚚𑜋𝛂𝛊𝟋𝛖ꫂ👻 𝜧𝑫" //ur watermark
-global.botscript = "https://github.com/TEXAXZ-S3R/HELL-BOY-MD-V3"
+global.ownertag = ['27686881509'] //ur owner tag
+global.ownernummenu = ['27686881509'] //ur owner number in menu and all
+global.watermark = "🧚‍♂️𝑨𝑳𝑬𝑿𝑨 𝑸𝑼𝑬𝑬𝑵🧚‍♂️ 𝜧𝑫" //ur watermark
+global.botscript = "https://github.com/CYBERXKID/ALEXA-QUEEN-V4"
 global.linkz1 = "https://chat.whatsapp.com/KTcdEQw3SDk3s5A7dvJlDS"
 global.linkz2 = "https://chat.whatsapp.com/KTcdEQw3SDk3s5A7dvJlDS"
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./AlexaMedia/theme/cyberxkidpic.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./AlexaMedia/theme/cyberxkidpic.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./AlexaMedia/theme/cyberxkidpic.jpg") //ur error pic
+global.thumb = fs.readFileSync("./AlexaMedia/theme/cyberxkidpic.jpg") //ur thumb pic
 
 //database
 global.ntilinkytvid = []
@@ -92,7 +92,7 @@ global.ntilink = []
 global.lolhuman = "KaysaS"
 global.sessionName = "session"
 global.antitags = true
-global.prefa = ['','!','.','🐦','🐤','🗿']
+global.prefa = ['','!','.','🧚‍♂️','❤️','💋']
 global.mess = {
     success: '𝑫𝒐𝒏𝒆 ✓',
     admin: '𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒔 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒂𝒅𝒎𝒊𝒏𝒔!',
