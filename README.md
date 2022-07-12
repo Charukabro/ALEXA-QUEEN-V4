@@ -8,12 +8,12 @@
   <p align="center">
 
 
-# Thanks to
+# THANKS TO
 
  [@CYBERXKID](https://github.com/CYBERXKID) for [ALEXA QUEEN V4](https://github.com/CYBERXKID/ALEXA-QUEEN-V4)
 ------
 
-# ```Bot Info```
+# ```BOT INFO```
 <p align="center">
 <a href="https://github.com/CYBERXKID/followers"><img title="Followers" src="https://img.shields.io/github/followers/CYBERXKID?color=red&style=flat-square"></a>
 <a href="https://github.com/CYBERXKID/ALEXA-QUEEN-V4/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/CYBERXKID/ ALEXA-QUEEN-V4?color=blue&style=flat-square"></a>
@@ -27,21 +27,18 @@
 
 -------
 
-## ```Connect With Me```
+## ```CONNECT WITH ME```
 <p align="center">
 <a href="https://wa.me/27686881509"><img src="https://img.shields.io/badge/Contact CYBERXKID-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com/KTcdEQw3SDk3s5A7dvJlDS"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
-<p align="left">
-Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.
-</p>
 
-## ```Bot Support Groups```
+## ```BOT SUPPORT GROUP```
 
 - [`1st GROUP`](https://chat.whatsapp.com/KTcdEQw3SDk3s5A7dvJlDS)
 
-# Setup For Deployment 👇
+# SETUP FOR DEPLOYMENT 👇
 
 - FORK THE REPOSITORY [Here](https://github.com/CYBERXKID/ALEXA-QUEEN-V4/fork)
 
